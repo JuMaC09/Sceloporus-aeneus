@@ -1,0 +1,29 @@
+#Resultados agresividad
+
+
+
+| Response variable | Factor tested   | Statistical test      | df | Test statistic | p-value |
+| ----------------- | --------------- | --------------------- | -- | -------------- | ------- |
+| Physical contacts | Morphotype      | Negative binomial GLM | 2  | LR χ² = 2.97   | 0.23    |
+| Visual displays   | Morphotype      | Negative binomial GLM | 2  | LR χ² = 3.69   | 0.16    |
+| Physical contacts | Breeding season | Negative binomial GLM | 3  | LR χ² = 21.71  | < 0.001 |
+| Visual displays   | Breeding season | Negative binomial GLM | 3  | LR χ² = 5.91   | 0.12    |
+
+#Resultados Coloración
+
+| Body region     | Color variable | Factor tested          | Statistical test | df       | Test statistic | p-value |
+| --------------- | -------------- | ---------------------- | ---------------- | -------- | -------------- | ------- |
+| Lateral         | Hue            | Morphotype             | Kruskal–Wallis   | 2        | H = 84.0       | < 0.001 |
+| Lateral         | Saturation     | Morphotype             | Kruskal–Wallis   | 2        | H = 150.8      | < 0.001 |
+| Lateral         | Brightness     | Morphotype             | Kruskal–Wallis   | 2        | H = 112.9      | < 0.001 |
+| Ventral (belly) | Hue            | Morphotype             | Kruskal–Wallis   | 2        | H = 1.92       | 0.38    |
+| Ventral (belly) | Saturation     | Morphotype             | LM (Box–Cox)     | 2        | F = 0.84       | 0.43    |
+| Ventral (belly) | Brightness     | Morphotype   	    | Linear model     | 2        | F = 0.56       | 0.57    |
+| Gular           | Hue            | Morphotype 	    | Kruskal–Wallis   | 2        | H = 6.8        | 0.03    |
+| Gular           | Saturation     | Morphotype   	    | Linear model     | 2        | F = 0.41 	   | 0.66    |
+| Gular           | Brightness     | Morphotype	       	    | LM (Box–Cox)     | 2        | F = 0.72       | 0.49    |
+| Ventral (belly) | Hue            | Breeding season        | Kruskal–Wallis   | 3        | H = 18.6       | < 0.001 |
+| Ventral (belly) | Saturation     | Breeding season        | Kruskal–Wallis   | 3        | H = 14.2       | 0.003   |
+| Ventral (belly) | Brightness     | Breeding season        | Kruskal–Wallis   | 3        | H = 21.4       | < 0.001 |
+| Gular           | Brightness     | Breeding season        | Kruskal–Wallis   | 3        | H = 9.7        | 0.02    |
+

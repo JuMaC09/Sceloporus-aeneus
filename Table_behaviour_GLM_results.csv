@@ -1,0 +1,7 @@
+"Response","Factor","Model","LR χ² (df)","p-value"
+"Frequency of aggressive behaviours","Breeding season","Negative binomial GLM","10.53 (3)","0.015"
+"Frequency of aggressive behaviours","Morphotype","Negative binomial GLM","2.73 (2)","0.256"
+"Physical contacts","Breeding season","Negative binomial GLM","28.99 (3)","< 0.001"
+"Physical contacts","Morphotype","Negative binomial GLM","2.19 (2)","0.335"
+"Visual displays","Breeding season","Negative binomial GLM","10.76 (3)","0.013"
+"Visual displays","Morphotype","Negative binomial GLM","2.99 (2)","0.224"
